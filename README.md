@@ -54,13 +54,13 @@ a < b  
 >> assertLess(a, b)    
 
  a <= b   
->> assertLessEqual(a, b) 
-  
+>> assertLessEqual(a, b)  
+   
 regex.search(s)   
->> assertRegex(s, re)  
-  
-not regex.search(s)     
->> assertNotRegex(s, re)  
-
-sorted(a) == sorted(b) and works with unhashable objs     
->> assertCountEqual(a, b)
+>> assertRegex(s, re)   
+   
+not regex.search(s)      
+>> assertNotRegex(s, re)   
+  
+sorted(a) == sorted(b) and works with unhashable objs      
+>> assertCountEqual(a, b)  
